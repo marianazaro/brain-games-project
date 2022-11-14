@@ -10,8 +10,26 @@ const isEven = (num) => {
     return result; 
 };
 
-const playGame = (iter = 0) => {
-    const randomNum = Math.round(Math.random() * 10);
+const arrOfRandomNumbers = () => {
+    const numbers = [];
+    while (numbers.length < 10) {
+        const randomNumbers = Math.ceil(Math.random() * 100)
+        let found =false;
+        for (let i = 0; i < numbers.length; i += 1) {
+            if (numbers[i] === randomNumbers) {
+                found = true;
+                break;
+            }
+        }
+        if (!found) {numbers[numbers.length]=randomNumbers};
+    }
+    return numbers;
+};
+
+
+const playGameEven = (iter = 0) => {
+    const numbers = arrOfRandomNumbers();
+    const randomNum = numbers[Math.round(Math.random() * 10)];
     console.log(`Question: ${randomNum}`);
 
     const userResponse = readlineSync.question('Your answer: ');
@@ -23,9 +41,9 @@ const playGame = (iter = 0) => {
     
     if (answer === userResponse) {
         console.log('Correct!')
-        playGame(iter += 1);
+        playGameEven(iter += 1);
     } else if (answer != userResponse) {
         return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}`);
     }
 };
-export {playGame};
+export {playGameEven};
