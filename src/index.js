@@ -3,9 +3,11 @@ export function winOrLoss(iter, functionOfGame, answer, questionForUser, userNam
     console.log(`Question: ${questionForUser}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (iter === 2) {
+    if (iter === 2 && userAnswer === answer) {
         return console.log(`Congratulations, ${userName}!`);
-    };
+    } else if (iter === 2 && userAnswer !== answer) {
+        return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}!`);
+    }
 
     if (answer === userAnswer) {
         console.log('Correct!');
