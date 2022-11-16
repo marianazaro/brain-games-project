@@ -11,7 +11,7 @@ export function winOrLoss(iter, functionOfGame, answer, questionForUser, userNam
         console.log('Correct!');
         functionOfGame(iter += 1);
     } else if (answer != userAnswer) {
-        return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}`);
+        return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}!`);
     }
 }
 
