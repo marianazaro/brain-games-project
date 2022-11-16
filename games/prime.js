@@ -1,7 +1,7 @@
-import { greeting, arrOfRandomNumbers, winOrLoss } from '../src/index.js';
+import { greet, arrOfRandomNumbers, winOrLoss } from '../src/index.js';
 
 const gameConditions = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const userName = greeting(gameConditions);
+const userName = greet(gameConditions);
 
 const isPrime = (num) => {
     let result = '';
@@ -14,7 +14,7 @@ const isPrime = (num) => {
     for (let divisor = 2; divisor <= num; divisor += 1) {
         num % divisor === 0 ? iter += 1 : iter += 0;
     }
-    
+
     result = iter === 1 ? 'yes' : 'no';
     return result;
 };

@@ -1,7 +1,7 @@
-import { greeting, arrOfRandomNumbers, winOrLoss } from '../src/index.js';
+import { greet, arrOfRandomNumbers, winOrLoss } from '../src/index.js';
 
 const gameConditions = 'Answer "yes" if the number is even, otherwise answer "no"';
-const userName = greeting(gameConditions);
+const userName = greet(gameConditions);
 
 const isEven = (num) => {
     const result = num % 2 === 0 ? 'yes' : 'no';

@@ -1,13 +1,13 @@
-import { winOrLoss, greeting } from "../src/index.js";
+import { winOrLoss, greet } from "../src/index.js";
 
 const gameConditions = 'What number is missing in the progression?';
-const userName = greeting(gameConditions);
+const userName = greet(gameConditions);
 
 const progression = (num) => {
     const length = 10;
     const arrProgression = [];
     const step = Math.round(Math.random() * 20);
-    
+
     for(let i = num; arrProgression.length < length; i += step) {
         arrProgression.push(i);
     }

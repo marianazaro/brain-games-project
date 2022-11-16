@@ -1,11 +1,11 @@
-import {winOrLoss, arrOfRandomNumbers, greeting} from '../src/index.js';
+import {winOrLoss, arrOfRandomNumbers, greet} from '../src/index.js';
 
 const gameConditions = 'What is the result of the expression?';
-const userName = greeting(gameConditions);
+const userName = greet(gameConditions);
 
 function transformOperation(operator, num1, num2) {
     let result = 0;
-    
+
     if (operator === '+') {
         result = num1 + num2;
     } else if (operator === '-') {

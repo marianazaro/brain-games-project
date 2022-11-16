@@ -31,7 +31,7 @@ export function arrOfRandomNumbers() {
     return numbers;
 }
 
-export function greeting(gameConditions) {
+export function greet(gameConditions) {
 console.log('Welcome to the Brain Games!');
 const userName = readlineSync.question('May I have your name? ');
 console.log(`Hi, ${userName}!`);
