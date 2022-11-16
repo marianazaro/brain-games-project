@@ -1,4 +1,5 @@
 import {greeting, arrOfRandomNumbers, winOrLoss} from '../src/index.js';
+
 const gameConditions = 'Find the greatest common divisor of given numbers.';
 const userName = greeting(gameConditions);
 
