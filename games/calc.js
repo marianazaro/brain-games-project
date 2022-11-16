@@ -5,6 +5,7 @@ const userName = greeting(gameConditions);
 
 function transformOperation(operator, num1, num2) {
     let result = 0;
+    
     if (operator === '+') {
         result = num1 + num2;
     } else if (operator === '-') {

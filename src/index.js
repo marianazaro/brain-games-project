@@ -1,5 +1,5 @@
 import readlineSync, { question } from 'readline-sync';
-export function winOrLoss(iter, functionOfGame,answer, questionForUser, userName) {
+export function winOrLoss(iter, functionOfGame, answer, questionForUser, userName) {
     console.log(`Question: ${questionForUser}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
@@ -36,5 +36,5 @@ console.log('Welcome to the Brain Games!');
 const userName = readlineSync.question('May I have your name? ');
 console.log(`Hi, ${userName}!`);
 console.log(gameConditions);
-return userName
+return userName;
 }

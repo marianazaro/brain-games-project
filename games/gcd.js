@@ -5,6 +5,7 @@ const userName = greeting(gameConditions);
 
 function gcd(num1, num2) {
     const minNum = num1 < num2 ? num1 : num2;
+    
     for (let i = minNum; i >= 2; i -= 1) {
         if (num1 % i === 0 && num2 % i === 0) {
             return String(i);

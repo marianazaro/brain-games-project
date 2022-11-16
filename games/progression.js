@@ -7,6 +7,7 @@ const progression = (num) => {
     const length = 10;
     const arrProgression = [];
     const step = Math.round(Math.random() * 20);
+    
     for(let i = num; arrProgression.length < length; i += step) {
         arrProgression.push(i);
     }
