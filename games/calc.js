@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/extensions
-import {winOrLoss, arrOfRandomNumbers, greet} from '../src/index.js';
+import { winOrLoss, arrOfRandomNumbers, greet } from '../src/index.js';
 
 const gameConditions = 'What is the result of the expression?';
 const userName = greet(gameConditions);

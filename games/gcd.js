@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/extensions
-import {greet, arrOfRandomNumbers, winOrLoss} from '../src/index.js';
+import { greet, arrOfRandomNumbers, winOrLoss } from '../src/index.js';
 
 const gameConditions = 'Find the greatest common divisor of given numbers.';
 const userName = greet(gameConditions);
