@@ -1,3 +1,5 @@
 #!/usr/bin/env node
-import { playGameGcd } from "../games/gcd.js";
+// eslint-disable-next-line import/extensions
+import { playGameGcd } from '../games/gcd.js';
+
 playGameGcd();

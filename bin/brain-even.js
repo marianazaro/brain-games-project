@@ -1,3 +1,5 @@
 #!/usr/bin/env node
-import { playGameEven } from "../games/even.js";
+// eslint-disable-next-line import/extensions
+import { playGameEven } from '../games/even.js';
+
 playGameEven();

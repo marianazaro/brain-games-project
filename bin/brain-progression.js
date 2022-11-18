@@ -1,3 +1,5 @@
 #!/usr/bin/env node
-import { playGameProgression } from "../games/progression.js";
+// eslint-disable-next-line import/extensions
+import { playGameProgression } from '../games/progression.js';
+
 playGameProgression();

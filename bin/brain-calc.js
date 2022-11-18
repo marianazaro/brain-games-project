@@ -1,3 +1,5 @@
 #!/usr/bin/env node
-import { playGameCalc } from "../games/calc.js";
+// eslint-disable-next-line import/extensions
+import { playGameCalc } from '../games/calc.js';
+
 playGameCalc();
