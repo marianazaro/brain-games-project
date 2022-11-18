@@ -38,7 +38,7 @@ export function arrOfRandomNumbers() {
         break;
       }
     }
-    if (!found) { numbers[numbers.length] = randomNumbers; };
+    if (!found) { numbers[numbers.length] = randomNumbers; }
   }
   return numbers;
 }
