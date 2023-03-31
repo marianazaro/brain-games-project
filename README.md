@@ -58,7 +58,7 @@ make brain-gcd
 ```
 
 ## brain-gcd
-[![asciicast](https://asciinema.org/a/edeTljS3XxvuXf37llOEyIdva.svg)](https://asciinema.org/a/edeTljS3XxvuXf37llOEyIdva)
+[![asciicast](https://asciinema.org/a/l8LoU2mHoAnzh59Dt1W35TiEQ.svg)](https://asciinema.org/a/l8LoU2mHoAnzh59Dt1W35TiEQ)
 
 
 ### Brain-progression game
