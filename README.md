@@ -75,8 +75,7 @@ make brain-progression
 ```
 
 ## brain-progression
-[![asciicast](https://asciinema.org/a/kuulnnSnb25rhrv6kiwsUGaTZ.svg)](https://asciinema.org/a/kuulnnSnb25rhrv6kiwsUGaTZ)
-
+[![asciicast](https://asciinema.org/a/LXBoiGmO97m3tzG2uKXiADPe6.svg)](https://asciinema.org/a/LXBoiGmO97m3tzG2uKXiADPe6)
 
 ### Brain-prime game
 
