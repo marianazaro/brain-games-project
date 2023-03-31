@@ -42,7 +42,7 @@ make brain-calc
 ```
 
 ## brain-calc
-[![asciicast](https://asciinema.org/a/tXv2hM9B3JQSVM34b8KxKLfBO.svg)](https://asciinema.org/a/tXv2hM9B3JQSVM34b8KxKLfBO)
+[![asciicast](https://asciinema.org/a/7jPIWmiNC0m6eIHgDqlUW9FUo.svg)](https://asciinema.org/a/7jPIWmiNC0m6eIHgDqlUW9FUo)
 
 ### Brain-gcd game
 
