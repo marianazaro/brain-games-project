@@ -91,4 +91,4 @@ make brain-prime
 ```
 
 ## brain-prime
-[![asciicast](https://asciinema.org/a/K57Ei79yAh54rnO3iEMIaW0fX.svg)](https://asciinema.org/a/K57Ei79yAh54rnO3iEMIaW0fX)
+[![asciicast](https://asciinema.org/a/oLSKmumdEH6ySzVoj9CDvpiQ2.svg)](https://asciinema.org/a/oLSKmumdEH6ySzVoj9CDvpiQ2)
