@@ -26,7 +26,7 @@ make brain-even
 ```
 
 ## brain-even
-[![asciicast](https://asciinema.org/a/p28BCl4x83BcuxgUqod7v88Tz.svg)](https://asciinema.org/a/p28BCl4x83BcuxgUqod7v88Tz)
+[![asciicast](https://asciinema.org/a/g9VSDfUG5GYvTBFDy1PX19nzA.svg)](https://asciinema.org/a/g9VSDfUG5GYvTBFDy1PX19nzA)
 
 ### Brain-calc game
 
